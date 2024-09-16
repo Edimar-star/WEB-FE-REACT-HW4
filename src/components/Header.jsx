@@ -3,9 +3,9 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 const Header = () => {
     return (
         <header className="bg-gray-800 text-white">
-            <div className="container mx-auto px-4 py-4 flex items-center justify-between">
+            <section className="container mx-auto px-4 py-4 flex items-center justify-between">
                 {/* --------------------- LOGO ---------------------------- */}
-                <div className="flex items-center space-x-2">
+                <article className="flex items-center space-x-2">
                     <a href="#">
                         <figure className="flex items-center space-x-2">
                             <img 
@@ -16,7 +16,7 @@ const Header = () => {
                             <figcaption className="text-xl font-semibold">XIAOMI</figcaption>
                         </figure>
                     </a>
-                </div>
+                </article>
 
                 {/* --------------------- MENU DE NAVEGACION ---------------------------- */}
                 <nav className="hidden lg:flex lg:space-x-6 flex-grow justify-center">
@@ -30,15 +30,15 @@ const Header = () => {
                 </nav>
 
                 {/* --------------------- USUARIO Y CARRITO ---------------------------- */}
-                <div className="flex space-x-4 text-2xl">
+                <article className="flex space-x-4 text-2xl">
                     <a href="#" aria-label="Cuenta de Usuario" className="hover:text-gray-400">
                         <FontAwesomeIcon icon={["fas", "user"]} />
                     </a>
                     <a href="#" aria-label="Carrito de Compras" className="hover:text-gray-400">
                         <FontAwesomeIcon icon={["fas", "cart-shopping"]} />
                     </a>
-                </div>
-            </div>
+                </article>
+            </section>
         </header>
     );
 }
