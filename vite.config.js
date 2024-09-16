@@ -3,5 +3,5 @@ import react from '@vitejs/plugin-react'
 
 export default defineConfig({
   plugins: [react()],
-  base: "https://github.com/Edimar-star/WEB-FE-REACT-HW4"
+  base: "https://github.com/Edimar-star/WEB-FE-REACT-HW4/"
 })
