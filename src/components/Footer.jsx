@@ -6,7 +6,7 @@ const Footer = () => {
             <section className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
                 {/* --------------------- CONTACTO ---------------------------- */}
                 <article className="space-y-4">
-                    <h3 className="text-xl font-semibold">Contacto</h3>
+                    <h3 className="text-xl font-semibold text-yellow-500">Contacto</h3>
                     <p>Dirección: Calle 45, Barranquilla, Colombia</p>
                     <p>Correo electrónico: <span className="text-blue-300">contacto@xiaomi.com</span></p>
                     <p>Teléfono: +123 456 789</p>
@@ -14,7 +14,7 @@ const Footer = () => {
 
                 {/* --------------------- REDES SOCIALES ---------------------------- */}
                 <article className="space-y-4">
-                    <h3 className="text-xl font-semibold">Síguenos</h3>
+                    <h3 className="text-xl font-semibold text-yellow-500">Síguenos</h3>
                     <div className="flex space-x-4">
                         <a href="#" aria-label="Facebook" className="text-blue-600 hover:text-blue-400"><FontAwesomeIcon icon={["fab", "square-facebook"]} /></a>
                         <a href="#" aria-label="Twitter" className="text-blue-400 hover:text-blue-300"><FontAwesomeIcon icon={["fab", "square-twitter"]} /></a>
@@ -25,7 +25,7 @@ const Footer = () => {
 
                 {/* --------------------- NEWSLETTER ---------------------------- */}
                 <article className="space-y-4">
-                    <h3 className="text-xl font-semibold">Suscríbete a Nuestro Boletín</h3>
+                    <h3 className="text-xl font-semibold text-yellow-500">Suscríbete a Nuestro Boletín</h3>
                     <form className="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4">
                         <input 
                             type="email" 

@@ -12,7 +12,7 @@ const App = () => {
         {/* --------------------- INTRODUCCION ---------------------------- */}
         <section className="px-4 py-8 bg-gray-50">
             <article className="container mx-auto">
-                <h1 className="text-3xl font-bold mb-4">Introducción</h1>
+                <h1 className="text-3xl font-bold mb-4 text-orange-500">Introducción</h1>
                 <p className="text-base text-gray-700">
                     El Xiaomi Redmi Note 11 es un smartphone de gama media que combina rendimiento robusto con 
                     características innovadoras a un precio accesible. Equipado con una pantalla AMOLED de 6.43 
@@ -27,7 +27,7 @@ const App = () => {
         {/* --------------------- DIAGNOSTICO ACTUAL ---------------------------- */}
         <section className="px-4 py-8 bg-white">
             <article className="container mx-auto">
-                <h2 className="text-2xl font-semibold mb-4">1. Diagnóstico Actual</h2>
+                <h2 className="text-2xl font-semibold mb-4 text-amber-500">1. Diagnóstico Actual</h2>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                     {dofa_data.map(dd => <DofaElement key={dd.id} data={dd} />)}
                 </div>
@@ -38,7 +38,7 @@ const App = () => {
         {/* --------------------- IDENTIDAD ORGANIZACIONAL ---------------------------- */}
         <section className="px-4 py-8 bg-gray-50">
             <article className="container mx-auto">
-                <h2 className="text-2xl font-semibold mb-4">2. Identidad Organizacional</h2>
+                <h2 className="text-2xl font-semibold mb-4 text-amber-500">2. Identidad Organizacional</h2>
                 <ul className="list-disc pl-5 space-y-4">
                     {org_iden_data.map((org_iden, index) => <li key={index}>
                         <h3 className="text-xl font-bold">{org_iden.name}</h3>
@@ -51,7 +51,7 @@ const App = () => {
         {/* --------------------- OBJETIVOS ESTRATEGICOS ---------------------------- */}
         <section className="px-4 py-8 bg-white">
             <article className="container mx-auto">
-                <h2 className="text-2xl font-semibold mb-4">3. Objetivos Estratégicos</h2>
+                <h2 className="text-2xl font-semibold mb-4 text-amber-500">3. Objetivos Estratégicos</h2>
                 <Table data={objectives_data} />
             </article>
         </section>

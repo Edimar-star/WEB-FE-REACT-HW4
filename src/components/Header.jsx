@@ -21,20 +21,20 @@ const Header = () => {
                 {/* --------------------- MENU DE NAVEGACION ---------------------------- */}
                 <nav className="hidden lg:flex lg:space-x-6 flex-grow justify-center">
                     <ul className="flex space-x-6">
-                        <li><a href="#" className="hover:text-gray-400">Introducción</a></li>
-                        <li><a href="#" className="hover:text-gray-400">Diagnóstico Actual</a></li>
-                        <li><a href="#" className="hover:text-gray-400">Identidad Organizacional</a></li>
-                        <li><a href="#" className="hover:text-gray-400">Objetivos Estratégicos</a></li>
-                        <li><a href="#" className="hover:text-gray-400">Contacto</a></li>
+                        <li><a href="#" className="hover:text-yellow-400">Introducción</a></li>
+                        <li><a href="#" className="hover:text-yellow-400">Diagnóstico Actual</a></li>
+                        <li><a href="#" className="hover:text-yellow-400">Identidad Organizacional</a></li>
+                        <li><a href="#" className="hover:text-yellow-400">Objetivos Estratégicos</a></li>
+                        <li><a href="#" className="hover:text-yellow-400">Contacto</a></li>
                     </ul>
                 </nav>
 
                 {/* --------------------- USUARIO Y CARRITO ---------------------------- */}
                 <article className="flex space-x-4 text-2xl">
-                    <a href="#" aria-label="Cuenta de Usuario" className="hover:text-gray-400">
+                    <a href="#" aria-label="Cuenta de Usuario" className="hover:text-orange-400">
                         <FontAwesomeIcon icon={["fas", "user"]} />
                     </a>
-                    <a href="#" aria-label="Carrito de Compras" className="hover:text-gray-400">
+                    <a href="#" aria-label="Carrito de Compras" className="hover:text-orange-400">
                         <FontAwesomeIcon icon={["fas", "cart-shopping"]} />
                     </a>
                 </article>
